@@ -1,0 +1,30 @@
+/* Chat message styling */
+div.userMessage {
+    color: white;
+    background-color: #1a73e8; /* Blue background for user messages */
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px;
+    width: fit-content;
+    align-self: flex-end;
+}
+
+div.aiMessage {
+    color: black;
+    background-color: #f1f3f4; /* Light grey background for AI messages */
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px;
+    width: fit-content;
+    align-self: flex-start;
+}
+
+div.systemMessage {
+    color: white;
+    background-color: #ff6347; /* Tomato red background for system messages */
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px;
+    width: fit-content;
+    align-self: center;
+}
